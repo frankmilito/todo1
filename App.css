@@ -1,0 +1,28 @@
+body{
+  background-color: #f4f4f4;
+}
+.todo-list{
+  width: 300px;
+  display:flex;
+  flex-direction: column;
+  margin:0 auto;
+  padding:1em;
+  background:#fff;
+}
+
+.todo-list input{
+  padding: 3em;
+}
+.todo-list button{
+  padding:10px;
+  font-weight: bold;
+  background:rgb(231, 231, 7);
+  outline: none;
+  border:0;
+  transition:200ms ease-in;
+  box-sizing: border-box;
+}
+.todo-list button:hover{
+  transform: scale(1.02);
+  box-sizing: border-box;
+}
